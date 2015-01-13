@@ -266,10 +266,10 @@ p {
     }
 
     footer {
-      background-color: #292627;
-      position: relative;
-      min-height: 200px;
-      color: #545152;
+        background-color: #292627;
+        position: relative;
+        min-height: 200px;
+        color: #545152;
 
     }
 
@@ -283,7 +283,9 @@ p {
     }
 
     .left-box {
-      left: 7%;
+      left: 7
+      \
+      \%;
     }
 
     .input-sec {
