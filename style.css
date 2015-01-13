@@ -1,0 +1,354 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+body {
+  position: relative;
+  width: 100%;
+
+}
+
+
+header {
+  height: 80px;
+  background: #AE1F58;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0em 1em;
+  font-size: 1.2em;
+  color: white;
+  font-family: sans-serif;
+}
+
+nav {
+  position: absolute;
+  top: 25px;
+  right: 70px;
+}
+
+
+.top-section,
+.section-two,
+.about-academy,
+.mentors,
+.apply-sec
+{
+  margin: 0 auto;
+  max-width: 60%;
+  padding: 2em;
+}
+
+.top-section, .section-two {
+  color: white;
+}
+.wrapper {
+  background-color: #EB1767;
+  padding-top: 80px;
+}
+
+p {
+  padding-top: 2em;
+}
+
+
+.tiy-plus-iy {
+  padding-top: 2em;
+
+}
+
+.top-section img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.apply-button-1 {
+  border: none;
+  background: #AE1F58;
+  height: 60px;
+  display: block;
+  margin: 50px auto;
+  width: 100px;
+  border-radius: .75em;
+  color: white;
+  font-weight: 800;
+  font-size: 1em;
+
+}
+
+.section-two {
+
+
+  color: white;
+}
+
+.wrapper-two {
+  background:url("http://academy.smashingboxes.com/assets/timeline_bg-c6df24fc8cdea898ad4491ad758fdbe7.jpg");
+}
+
+.infog-wrap {
+  text-align: center;
+  height: 200px;
+  background: #292627;
+  position: relative;
+}
+
+
+
+
+.whiteinfobg {
+  background: white;
+  width: 800px;
+  margin: 0 auto;
+  height: 300px;
+  position: relative;
+
+}
+
+.infographic {
+  position: absolute;
+  top: 0;
+  left:0;
+  right:0;
+
+}
+
+.pink-box {
+  position: absolute;
+  background: #EB1767;
+  width: 800px;
+  height: 100px;
+  width: 0%;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+
+.infog-wrap:hover .pink-box {
+  width: 100%;
+
+
+}
+
+.about-academy {
+  padding-top: 100px;
+
+}
+.divider {
+    margin-top:
+    50px;
+  }
+
+.mentors h1 {
+    margin-bottom: 50px;
+  }
+
+.profiles-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+.profile-pic {
+    max-width: 150px;
+    height: auto;
+  }
+
+  .mentor-box {
+    text-align: center;
+  }
+
+  h3 {
+    font-size:1em;
+  }
+
+  h4 {
+    color: #EB1767;
+    font-size:.8em;}
+
+    .mentor-box {
+      padding: 10px;
+    }
+
+    table {
+      margin-top:50px;
+      width: 700px;
+      border-collapse: collapse;
+      border-spacing: 0;
+      text-align: left;
+      font-family: sans-serif;
+
+    }
+    thead {
+      background: #999999;
+      font-size: .75em;
+      color: white;
+    }
+
+
+
+    td, th {
+      height: 35px;
+      padding: 0;
+
+    }
+
+
+
+    th:first-child  {
+      border-radius: 1em 0 0 1em;
+    }
+
+    th:last-child {
+      border-radius: 0 1em 1em 0;
+    }
+
+    td, th {
+      padding-left: 35px;
+    }
+
+    td:nth-child(2) {
+      color: #EB1767;;
+    }
+
+    .apply-button-2 {
+      border: none;
+      background: #EB1767;
+      height: 35px;
+      display: block;
+      margin: 15px auto 0px;
+      width: 100px;
+      border-radius: .4em;
+      color: white;
+      font-weight: 800;
+      font-size: .8em;
+    }
+
+    .map, .map-overlay {
+      height: 600px;
+    }
+    .map {
+      background-image: url("http://academy.smashingboxes.com/assets/smashing_academy_map-af7e66d0b42cb911ae927a7e6e4ed9d1.png");
+      position: relative;
+    }
+
+    .map-overlay {
+      width: 50%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #EB1767;
+      opacity: .9;
+    }
+
+    .contact-wrapper {
+      opacity: 1;
+      color: white;
+      margin-left: 7em;
+      padding-top: 6em;
+
+    }
+
+    footer {
+      background-color: #292627;
+      position: relative;
+      min-height: 200px;
+      color: #545152;
+
+    }
+
+    .left-box img {
+
+    }
+
+    .left-box, .input-sec, .social-icons {
+      position: absolute;
+      top: 40px
+    }
+
+    .left-box {
+      left: 7%;
+    }
+
+    .input-sec {
+      left: 40%;
+      text-align: center;
+    }
+
+    .social-icons {
+      right: 5%;
+
+    }
+
+    footer img {
+      padding: 0 10px;
+    }
+
+    footer h6 {
+      font-size: 1em;
+      padding-bottom: 1em;
+    }
+
+    .newsletter {
+      width: 220px;
+      height: 30px;
+      margin-right: 20px;
+    }
+
+
+
+    footer button {
+      width: 90px;
+      color: white;
+      background-color: #EB1767;
+      border: none;
+      border-radius: .3em;
+      height: 35px;
+      font-size: 1em;
+      font-family: sans-serif;
+    }
+
+
+
+    /* media queries*/
+
+    @media (max-width:800px){
+
+      header {
+        min-height: 140px;
+
+      }
+
+      .logo {
+        position: relative;
+        left: 0;
+        margin: 0 auto;
+        display: block;
+      }
+
+      nav {
+        position: relative;
+        text-align: center;
+        right: 0;
+
+      }
+
+
+
+    }
