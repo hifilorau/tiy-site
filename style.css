@@ -11,6 +11,10 @@ body {
 
 }
 
+h1 {
+  font-size: 2.5em;
+}
+
 
 header {
   height: 80px;
@@ -52,7 +56,7 @@ nav {
 {
   margin: 0 auto;
   max-width: 60%;
-  padding: 2em;
+  padding: 4em 2em 2em;
 }
 
 .top-section, .section-two {
@@ -60,11 +64,12 @@ nav {
 }
 .wrapper {
   background-color: #EB1767;
-  padding-top: 80px;
+  padding-top: 120px;
 }
 
 p {
   padding-top: 2em;
+  font-size: 1.2em;
 }
 
 
@@ -100,6 +105,7 @@ p {
 
 .wrapper-two {
   background:url("http://academy.smashingboxes.com/assets/timeline_bg-c6df24fc8cdea898ad4491ad758fdbe7.jpg");
+  background-attachment: fixed;
 }
 
 .infog-wrap {
@@ -116,7 +122,7 @@ p {
   background: white;
   width: 800px;
   margin: 0 auto;
-  height: 300px;
+  height: 200px;
   position: relative;
 
 }
