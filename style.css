@@ -135,7 +135,7 @@ p {
   width: 800px;
   height: 100px;
   width: 0%;
-  transition-duration: 2s;
+  transition-duration: 1s;
   transition-timing-function: ease;
 }
 
@@ -180,7 +180,8 @@ p {
 
   h4 {
     color: #EB1767;
-    font-size:.8em;}
+    font-size:.8em;
+    }
 
     .mentor-box {
       padding: 10px;
@@ -283,9 +284,7 @@ p {
     }
 
     .left-box {
-      left: 7
-      \
-      \%;
+      left: 7%;
     }
 
     .input-sec {
@@ -294,7 +293,7 @@ p {
     }
 
     .social-icons {
-      right: 5%;
+      right: 7%;
 
     }
 
